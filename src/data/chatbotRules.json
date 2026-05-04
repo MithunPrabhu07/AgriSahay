@@ -1,0 +1,26 @@
+[
+  {
+    "keywords": ["fertilizer", "urea", "npk", "nutrient"],
+    "answer": "Use soil-test based fertilizer application. Split nitrogen into 2 to 3 stages and avoid overuse to prevent leaf burn."
+  },
+  {
+    "keywords": ["irrigation", "water", "drip", "sprinkler"],
+    "answer": "Use drip irrigation for water efficiency. Irrigate in early morning or evening and mulch around roots to reduce evaporation."
+  },
+  {
+    "keywords": ["pest", "insect", "worm", "aphid"],
+    "answer": "Start with yellow sticky traps and neem oil spray. If infestation increases, use recommended bio-pesticides and rotate modes of action."
+  },
+  {
+    "keywords": ["tomato", "leaf curl", "blight"],
+    "answer": "For tomato diseases, remove infected leaves quickly, avoid overhead watering, and use copper-based fungicide as per label instructions."
+  },
+  {
+    "keywords": ["rice", "paddy", "blast", "sheath"],
+    "answer": "Maintain field sanitation and avoid excess nitrogen. For blast risk, keep spacing adequate and apply recommended fungicide at early stage."
+  },
+  {
+    "keywords": ["weather", "rain", "temperature", "forecast"],
+    "answer": "Plan spraying and fertilizer based on forecast. Avoid chemical spray before rainfall and protect stored grains from humidity."
+  }
+]

@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;700&family=Outfit:wght@400;500;600;700&display=swap');
+@import 'tailwindcss';
+
+:root {
+  --brand-900: #123524;
+  --brand-700: #2f6a44;
+  --brand-500: #4b8b56;
+  --brand-300: #a9d197;
+  --soil-500: #87674a;
+  --leaf-bg: #f1f8e9;
+  --card-bg: #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Outfit', sans-serif;
+  color: var(--brand-900);
+  background:
+    radial-gradient(circle at 15% 10%, rgba(169, 209, 151, 0.45), transparent 36%),
+    radial-gradient(circle at 80% 0%, rgba(135, 103, 74, 0.2), transparent 32%),
+    linear-gradient(180deg, #f8fff2 0%, #edf8e5 60%, #e7f2da 100%);
+  min-height: 100vh;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+.grainy {
+  position: relative;
+}
+
+.grainy::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: radial-gradient(rgba(18, 53, 36, 0.05) 0.7px, transparent 0.7px);
+  background-size: 4px 4px;
+  opacity: 0.35;
+  pointer-events: none;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.92);
+  border: 1px solid rgba(18, 53, 36, 0.08);
+  border-radius: 16px;
+  box-shadow: 0 10px 24px rgba(18, 53, 36, 0.08);
+}
+
+.btn-primary {
+  @apply rounded-xl bg-emerald-700 px-4 py-3 text-white transition hover:bg-emerald-800;
+}
+
+.btn-muted {
+  @apply rounded-xl border border-emerald-800/20 bg-white px-4 py-3 text-emerald-900 transition hover:bg-emerald-50;
+}
+
+.dark body,
+body.dark {
+  color: #d8f0df;
+  background:
+    radial-gradient(circle at 20% 0%, rgba(75, 139, 86, 0.25), transparent 33%),
+    linear-gradient(180deg, #14251b 0%, #101d16 100%);
+}
+
+body.dark .card {
+  background: rgba(16, 29, 22, 0.94);
+  border-color: rgba(169, 209, 151, 0.16);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.25);
+}
+
+body.dark .btn-muted {
+  @apply border-emerald-300/30 bg-emerald-950 text-emerald-100 hover:bg-emerald-900;
+}

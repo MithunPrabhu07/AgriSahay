@@ -1,0 +1,22 @@
+{
+  "healthy": {
+    "name": "Healthy Leaf",
+    "solution": "No disease detected. Maintain regular irrigation, balanced nutrients, and periodic pest scouting."
+  },
+  "blight": {
+    "name": "Early Blight",
+    "solution": "Remove infected leaves, improve airflow, avoid overhead irrigation, and apply copper fungicide as advised."
+  },
+  "rust": {
+    "name": "Leaf Rust",
+    "solution": "Use resistant variety if possible, remove severe infection spots, and spray sulfur-based fungicide in early stage."
+  },
+  "leaf_spot": {
+    "name": "Leaf Spot",
+    "solution": "Avoid water splashing, sanitize tools, and use bio-fungicide or mancozeb per label guidance."
+  },
+  "powdery_mildew": {
+    "name": "Powdery Mildew",
+    "solution": "Increase ventilation, avoid excess nitrogen, and spray potassium bicarbonate or sulfur-based control."
+  }
+}

@@ -1,0 +1,74 @@
+[
+  {
+    "name": "Paddy",
+    "type": "crop",
+    "region": "Tamil Nadu",
+    "location": "Madurai Market",
+    "minPrice": 2100,
+    "maxPrice": 2450,
+    "avgPrice": 2280
+  },
+  {
+    "name": "Groundnut",
+    "type": "crop",
+    "region": "Tamil Nadu",
+    "location": "Trichy Market",
+    "minPrice": 5200,
+    "maxPrice": 6100,
+    "avgPrice": 5650
+  },
+  {
+    "name": "Tomato",
+    "type": "vegetable",
+    "region": "Karnataka",
+    "location": "Bengaluru Yard",
+    "minPrice": 1600,
+    "maxPrice": 2400,
+    "avgPrice": 1990
+  },
+  {
+    "name": "Onion",
+    "type": "vegetable",
+    "region": "Maharashtra",
+    "location": "Nashik Market",
+    "minPrice": 1800,
+    "maxPrice": 2600,
+    "avgPrice": 2210
+  },
+  {
+    "name": "Banana",
+    "type": "fruit",
+    "region": "Tamil Nadu",
+    "location": "Coimbatore Yard",
+    "minPrice": 2700,
+    "maxPrice": 3600,
+    "avgPrice": 3150
+  },
+  {
+    "name": "Mango",
+    "type": "fruit",
+    "region": "Uttar Pradesh",
+    "location": "Lucknow Market",
+    "minPrice": 4300,
+    "maxPrice": 5900,
+    "avgPrice": 5010
+  },
+  {
+    "name": "Ragi",
+    "type": "millet",
+    "region": "Karnataka",
+    "location": "Mysuru Market",
+    "minPrice": 3100,
+    "maxPrice": 3800,
+    "avgPrice": 3450
+  },
+  {
+    "name": "Bajra",
+    "type": "millet",
+    "region": "Rajasthan",
+    "location": "Jaipur Market",
+    "minPrice": 2500,
+    "maxPrice": 3180,
+    "avgPrice": 2870
+  }
+]
